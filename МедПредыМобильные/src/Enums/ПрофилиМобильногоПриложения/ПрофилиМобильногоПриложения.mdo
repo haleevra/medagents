@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26821d4b-dcaa-4fa7-968e-3cf08f6463cc">
+  <producedTypes>
+    <refType typeId="6d5392ac-669b-4787-8294-238abc1348a4" valueTypeId="0bd49daf-a926-46d1-a9f4-5aa0995d2df2"/>
+    <listType typeId="148e1cb2-2158-46b8-9194-0f1c7422f7fa" valueTypeId="1fe15e3f-9c2e-49e1-85a1-a2a515a38452"/>
+    <managerType typeId="5ae13882-e044-46ea-bd72-2c71077e7860" valueTypeId="54218c38-b637-4650-9f92-81aac1982559"/>
+  </producedTypes>
+  <name>ПрофилиМобильногоПриложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Профили мобильного приложения</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cbc3c337-7f50-49ac-b0b5-1bce71049e09">
+    <name>Супервайзер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Супервайзер</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Supervisor</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="df9b694a-f875-49b2-88e7-a468848c88e9">
+    <name>МедПредставитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мед. представитель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Sales Representative</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

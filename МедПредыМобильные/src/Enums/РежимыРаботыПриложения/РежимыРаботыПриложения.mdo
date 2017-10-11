@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b99147dd-7f14-4470-81db-4999d00457dd">
+  <producedTypes>
+    <refType typeId="18f1f54d-8321-4f4d-95a2-fba8d9857340" valueTypeId="d68ddb3e-0ff8-4f90-8e35-ec8eaca311e8"/>
+    <listType typeId="9eae0c6d-8123-435a-ba31-03a095518205" valueTypeId="4017c843-2ced-4f40-aac4-0a2c3720c506"/>
+    <managerType typeId="67b8e19d-8810-4faa-a2bc-c3ee080f50b7" valueTypeId="4c880253-ab74-48fe-868d-eabdbe9d2d12"/>
+  </producedTypes>
+  <name>РежимыРаботыПриложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы работы приложения</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3e53133a-7e70-40c6-88b5-034783bc866f">
+    <name>Визиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация визитов</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="14b30f38-c4b2-40be-b92e-b5747624061b">
+    <name>Многопользовательский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Многопользовательский</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

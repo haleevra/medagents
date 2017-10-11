@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b58d1ef1-93fa-4623-90b1-78cbdd4ef360">
+  <producedTypes>
+    <managerType typeId="782f4a85-8f15-421c-9ef5-83afa3c99d15" valueTypeId="445dcfdb-325d-4151-90dc-47f10b1bf823"/>
+    <valueManagerType typeId="8d8cebce-7608-4879-a4ae-3fba9bf14980" valueTypeId="b232aa1e-b06a-42c2-8e41-0397fdeeaa42"/>
+  </producedTypes>
+  <name>ПерезапуститьПриложение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перезапустить приложение</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

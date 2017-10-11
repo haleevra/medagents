@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04fe84c1-2340-4eaa-be11-2cb9dcf50ec1">
+  <name>ВысотаЭкрана</name>
+  <synonym>
+    <key>ru</key>
+    <value>Высота экрана</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Screen height</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <scale>2</scale>
+    </numberQualifiers>
+  </type>
+</mdclass:SessionParameter>

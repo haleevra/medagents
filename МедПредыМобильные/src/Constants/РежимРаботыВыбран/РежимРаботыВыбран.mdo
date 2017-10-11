@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b849d3b-11e6-4c6e-8af6-a51cdf6205a7">
+  <producedTypes>
+    <managerType typeId="aeb109b9-bcfa-421a-b59f-17bad26f5e9a" valueTypeId="36d29a87-08c5-498a-870a-c3c20e599f62"/>
+    <valueManagerType typeId="9dd58258-1212-45ca-a983-34868347427a" valueTypeId="40437474-ff6c-4a57-be98-a9e5ae3f8926"/>
+  </producedTypes>
+  <name>РежимРаботыВыбран</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим работы выбран</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Use Data Synchronization</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e5f08d5-d02b-4509-be41-ea30b0d7ea7f">
+  <name>УстановкаКодаДоступаВПриложение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка кода доступа в приложение</value>
+  </synonym>
+  <comment></comment>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

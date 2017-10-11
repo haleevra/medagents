@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b122e5c-d580-4fae-8bef-bb4ae88fd86d">
+  <name>ВыполнениеОбменаПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнение обмена при записи</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>DocumentObject.Мероприятие</types>
+    <types>DocumentObject.Визит</types>
+    <types>CatalogObject.Контрагенты</types>
+    <types>CatalogObject.КонтактныеЛица</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ОбменМобильноеПриложениеФоновыеЗадания.ВыполнениеОбменаПриЗаписиПриЗаписи</handler>
+</mdclass:EventSubscription>

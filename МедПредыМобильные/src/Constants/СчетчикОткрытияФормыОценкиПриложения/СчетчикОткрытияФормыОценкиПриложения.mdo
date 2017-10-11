@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d9cd709-b20f-4d9a-9110-597cdb4aec93">
+  <producedTypes>
+    <managerType typeId="ba6f0b74-dd1a-4352-8dc0-527c109afa64" valueTypeId="fb5644a8-adea-4512-86bd-05b3df6576a8"/>
+    <valueManagerType typeId="cec4a3ea-a6ad-46e6-a961-f63a9cb68ea8" valueTypeId="b6377d0a-d00f-4c92-8287-e71b1fd127a2"/>
+  </producedTypes>
+  <name>СчетчикОткрытияФормыОценкиПриложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Счетчик открытия формы оценки приложения</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>1</precision>
+    </numberQualifiers>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

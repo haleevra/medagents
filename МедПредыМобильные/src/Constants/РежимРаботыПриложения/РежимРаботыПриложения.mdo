@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7cecea0-5b6f-46c0-bf24-be0377a33036">
+  <producedTypes>
+    <managerType typeId="1ebb5a65-3b73-472d-aa58-caab1e01300f" valueTypeId="2ee2f912-02b3-4768-8687-406e3e77d992"/>
+    <valueManagerType typeId="7097315e-ee11-4e47-915b-616faf3f0014" valueTypeId="482dfcd3-3e3c-4911-adb7-fa031e9d3b83"/>
+  </producedTypes>
+  <name>РежимРаботыПриложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим работы приложения</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>EnumRef.РежимыРаботыПриложения</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

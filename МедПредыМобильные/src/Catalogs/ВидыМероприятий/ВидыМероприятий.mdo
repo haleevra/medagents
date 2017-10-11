@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02e745b3-6ecd-43d7-8b83-6e753d168444">
+  <producedTypes>
+    <objectType typeId="1cba2577-4735-47f5-922e-2b9c25a00f16" valueTypeId="69b44e27-ee36-4698-83bd-8a23120e001a"/>
+    <refType typeId="2288da56-8774-440b-ab1b-4f1e4e9d0791" valueTypeId="00569b90-a76a-49f0-b787-bdd2c4e58145"/>
+    <selectionType typeId="86d62c88-bb92-4524-ba19-ac3b24ca653c" valueTypeId="28b80fd6-eacf-425f-8885-725839c5327c"/>
+    <listType typeId="e8c8de03-758b-439d-a68f-7f44229e1a4e" valueTypeId="24741f62-c71c-4ff2-ac69-4f0d7bd56009"/>
+    <managerType typeId="7c9d3a3f-c12b-4fca-b332-b313970f6b93" valueTypeId="f80a7ffe-f463-41d7-aac4-7363820d05fc"/>
+  </producedTypes>
+  <name>ВидыМероприятий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды мероприятий</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыМероприятий.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыМероприятий.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид мероприятия</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Проекты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

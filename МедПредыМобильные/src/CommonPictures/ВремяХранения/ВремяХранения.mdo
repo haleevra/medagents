@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d54ffc6-6e5e-4673-a743-988b39273e8e">
+  <name>ВремяХранения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Время хранения</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12aa7692-fade-4215-a41b-8c7d4d0fcb44">
+  <name>МусорнаяКорзина</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мусорная корзина</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Trash</value>
+  </synonym>
+  <comment></comment>
+  <group>CommandGroup.Сервис</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделКорзина</picture>
+  </picture>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

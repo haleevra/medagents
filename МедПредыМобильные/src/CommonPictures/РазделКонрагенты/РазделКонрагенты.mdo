@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a447c11-101e-4334-a599-8725f9339f61">
+  <name>РазделКонрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел конрагенты</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

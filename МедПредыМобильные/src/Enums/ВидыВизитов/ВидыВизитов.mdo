@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="530c5d19-3b11-4db9-afee-cd322cc41c14">
+  <producedTypes>
+    <refType typeId="702369ba-1b26-488e-bb93-bc0b0f4d99da" valueTypeId="18d9decc-7abf-406f-9d76-d8cd46198a69"/>
+    <listType typeId="64454c5f-78af-4e02-a48c-14a29e11301f" valueTypeId="73b3e718-5f77-4359-be7d-8f4af0508009"/>
+    <managerType typeId="fdbddd96-bcf7-4acc-9c65-e531f6c93121" valueTypeId="ae7b3ee3-2e34-4141-994f-fc548f821dc4"/>
+  </producedTypes>
+  <name>ВидыВизитов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды визитов</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d6eeadb6-eae8-4fa2-a031-23b83b62875e">
+    <name>Первичный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первичный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2dc0d58a-7157-46a6-9531-e2f13c011041">
+    <name>Вторичный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вторичный</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Secondary</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

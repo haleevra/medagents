@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="abcf9bef-14b9-46db-88bc-1e05eac1caf0">
+  <producedTypes>
+    <objectType typeId="f511a1f6-dc31-4302-8fa8-f784148b4359" valueTypeId="58565571-3d8d-4931-8e39-995948f7462c">
+    </objectType>
+    <refType typeId="1b5d10af-3525-42ec-9860-2a395d89bc8a" valueTypeId="f2b61b18-3dc1-43ff-9677-666ce40dfee9">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="63c7d521-e4b7-4176-b63d-e6f5c50e5bf0" valueTypeId="d232a5de-ef64-4538-b141-c92a8a583904">
+    </selectionType>
+    <listType typeId="03dbaed7-933a-4a49-ae70-8db7e8a79b0f" valueTypeId="29ac3e6a-f841-4e87-96f7-bd2daa0dffd6">
+    </listType>
+    <managerType typeId="669a943a-0f27-470a-91d1-850e36a5b4bc" valueTypeId="8ffd408a-62db-45a0-83fe-2ad14cb67d5c">
+    </managerType>
+  </producedTypes>
+  <name>Проекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проекты</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Проекты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Проекты.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="df36511b-fe09-46f3-8daf-d2624bdca7ef">
+    <name>ЛПУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЛПУ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Clinic</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="8fc185d1-efc8-464a-a526-daa040a293b3">
+    <name>Аптеки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аптеки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Pharmacy</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="d8080308-60e3-461a-9da4-bfa3483e4c7b">
+    <name>Цикличность</name>
+    <synonym>
+      <key>en</key>
+      <value>Pharmacy</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Цикличность</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Минимальный количество дней между повторными визитами</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <tabularSections uuid="9459b371-0aec-41f9-86b3-8fe89a9a1020">
+    <producedTypes>
+      <objectType typeId="92f477dc-36e4-4d33-9e71-17278da536a3" valueTypeId="3b076766-c8bc-4bcf-b571-03a993aa032d">
+      </objectType>
+      <rowType typeId="f6e293e1-36a8-4e2f-9fb0-0c34b9ca9695" valueTypeId="50823a5b-5233-4b4b-a34f-7333d7266327">
+      </rowType>
+    </producedTypes>
+    <name>ЧекЛист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чек-лист</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Check List</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="764d137e-c8c6-43b8-a54a-c9da50579bf3">
+      <name>Пункт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пункт</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <multiLine>true</multiLine>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="04db532b-ba0c-4d12-b092-cdf97cac6c8c">
+      <name>ТипЗначения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип значения</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Type</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>6</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="42441d26-717b-4879-8023-d8912b539d06">
+    <producedTypes>
+      <objectType typeId="5ae7c4df-b0ea-4b42-bc75-dd2c912613de" valueTypeId="e3c79952-a0ac-48d7-9342-d06317ab523c">
+      </objectType>
+      <rowType typeId="ce30b253-5a35-4db6-8570-48760f2fc66b" valueTypeId="79d41842-142a-4bab-baae-f47cd61a0a79">
+      </rowType>
+    </producedTypes>
+    <name>Препараты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Препараты</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="00a6782c-e935-4451-9d9d-d32eacafc420">
+      <name>Товар</name>
+      <synonym>
+        <key>ru</key>
+        <value>Товар</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Товары</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="3cd8301b-6fdc-40d0-8811-7df882636df0">
+    <producedTypes>
+      <objectType typeId="6fde5911-7778-4200-b510-19e7824fdfde" valueTypeId="a7e8c638-604b-4057-8052-08ba4815f5bf">
+      </objectType>
+      <rowType typeId="0cfadb5c-524e-40b4-abcf-cb7e4fb21fce" valueTypeId="043940e9-6d1f-4426-a88c-521111541e21">
+      </rowType>
+    </producedTypes>
+    <name>Конкуренты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конкуренты</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="d5515c8b-b29c-4ebb-926a-efda1d7036ab">
+      <name>Товар</name>
+      <synonym>
+        <key>ru</key>
+        <value>Товар</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Товары</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="0736e412-a7ed-4383-a2a4-52c7f3dd7a58">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

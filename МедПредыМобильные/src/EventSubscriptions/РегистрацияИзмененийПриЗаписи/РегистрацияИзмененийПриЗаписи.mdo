@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6bea3d09-8d30-4059-80f5-f82882803b46">
+  <name>РегистрацияИзмененийПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация изменений при записи</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>DocumentObject.Мероприятие</types>
+    <types>DocumentObject.Визит</types>
+    <types>DocumentObject</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ОбменМобильноеПриложениеВызовСервера.РегистрацияИзмененийПриЗаписиПриЗаписи</handler>
+</mdclass:EventSubscription>

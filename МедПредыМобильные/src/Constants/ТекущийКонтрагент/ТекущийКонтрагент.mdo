@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81d4031b-6911-4d90-b766-9149a38d6511">
+  <producedTypes>
+    <managerType typeId="171d4b21-f690-4a6d-9ca2-27244291f076" valueTypeId="2e587c3b-050c-469d-a1bf-321106f41187"/>
+    <valueManagerType typeId="ad4f2caf-6731-402f-b82f-af801a0e4aaf" valueTypeId="d40ee46f-2e0b-42f3-b6d4-5e3f4c81e704"/>
+  </producedTypes>
+  <name>ТекущийКонтрагент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагент</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Counterparty</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>CatalogRef.Контрагенты</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

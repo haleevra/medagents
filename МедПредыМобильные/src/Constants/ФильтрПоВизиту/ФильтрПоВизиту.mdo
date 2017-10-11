@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce2c2a78-a158-43b5-98e7-2433a3f94dfd">
+  <producedTypes>
+    <managerType typeId="2b556480-a718-414d-83e9-a936a5153785" valueTypeId="ef660c77-59fa-4013-85ca-69e9f9a19d35"/>
+    <valueManagerType typeId="46d3556d-71de-4653-9a40-fd14a78c9267" valueTypeId="de822b17-59a9-40c9-8d3a-bc1bff899da0"/>
+  </producedTypes>
+  <name>ФильтрПоВизиту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фильтр по визиту</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>EnumRef.ФильтрыПоВизиту</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

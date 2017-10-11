@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6697543-7f01-41e1-9bf2-004520a7278d">
+  <producedTypes>
+    <refType typeId="33a1ac83-efdd-422e-8860-edba71954d90" valueTypeId="46dd09aa-3084-40e3-8ec2-ebc57e1d11da"/>
+    <listType typeId="e012ac65-5012-4d5f-8448-b769611abfe9" valueTypeId="348816fa-c048-429e-9a41-6339b702d899"/>
+    <managerType typeId="4d84b899-5862-4aa2-8e0b-55195f5bb516" valueTypeId="949fcf66-1fbd-4f08-afb9-85f81d0c264a"/>
+  </producedTypes>
+  <name>РезервноеКопированиеПодключениеКСерверу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Резервное копирование подключение к серверу</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7552b5de-0ee2-42cc-9ed0-0c5afcb81068">
+    <name>ФайлНеНайден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл не найден</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>File not found</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4809eb5b-d735-4997-8874-c67b9066d5ae">
+    <name>ОшибкаАутентификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка аутентификации</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Authentication Error</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2b47e819-ba72-47a5-a704-d4b547c0d5db">
+    <name>НеверныйПуть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неверный путь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The Wrong Way</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ee7a035-3d4d-448d-9010-92ce0e0e765c">
+  <producedTypes>
+    <managerType typeId="9b71f0d5-bb0f-4586-b510-f4a0fbcf0499" valueTypeId="42fe10a3-aeb0-4590-be0e-81892bb7507d"/>
+    <valueManagerType typeId="260a7eee-4cec-40ac-8a87-407737121fb5" valueTypeId="6953fe60-4844-4224-9d3f-e0bc9704d508"/>
+  </producedTypes>
+  <name>ОповеститьОВыполненииОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оповестить о выполнении обмена</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

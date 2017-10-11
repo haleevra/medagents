@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e0688a6-7a75-470b-92a2-5e1aa29bfacb">
+  <name>БольшоеОблако</name>
+  <synonym>
+    <key>ru</key>
+    <value>Большое облако</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

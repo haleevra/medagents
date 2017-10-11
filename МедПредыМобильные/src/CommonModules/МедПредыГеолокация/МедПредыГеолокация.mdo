@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f72375f5-d0d9-4602-8a56-11095c5b21a7">
+  <name>МедПредыГеолокация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мед преды геолокация</value>
+  </synonym>
+  <comment></comment>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

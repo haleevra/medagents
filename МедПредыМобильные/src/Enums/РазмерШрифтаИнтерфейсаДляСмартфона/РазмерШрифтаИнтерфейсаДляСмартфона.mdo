@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b3389b7-a4c7-415f-b7ac-75ca7c9fd0be">
+  <producedTypes>
+    <refType typeId="242bff01-8f3e-47fa-8cc8-e8b6efe66889" valueTypeId="69e6b8de-978d-43d6-a34a-c7b0fc413b3e"/>
+    <listType typeId="1eea6bd8-0fce-49fb-a0bc-fbf1e280df35" valueTypeId="abd42911-8c72-47df-b5b2-108d9916d7eb"/>
+    <managerType typeId="930310ca-339f-42fd-8d2f-eedc6ff601cb" valueTypeId="3797bfb4-6418-405a-8aa2-35e964e1da15"/>
+  </producedTypes>
+  <name>РазмерШрифтаИнтерфейсаДляСмартфона</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размер шрифта интерфейса для смартфона</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="89a01ace-73f0-4d7f-906a-e1b8f1311835">
+    <name>Обычный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обычный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d1cd2915-094e-495d-b663-283c797eaa39">
+    <name>Мелкий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мелкий</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

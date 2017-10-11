@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="caad38e6-94b7-4ec5-b461-61a542cd5b7a">
+  <name>БыстрыеДействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Быстрые действия</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Quick Actions</value>
+  </synonym>
+  <comment></comment>
+  <representation>Auto</representation>
+  <category>ActionsPanel</category>
+</mdclass:CommandGroup>

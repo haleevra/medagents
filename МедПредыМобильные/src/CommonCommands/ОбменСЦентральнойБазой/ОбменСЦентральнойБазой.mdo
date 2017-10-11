@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e9da062-a855-48a1-aa96-27cd95ad1bc7">
+  <name>ОбменСЦентральнойБазой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизировать</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Synchronize Data</value>
+  </synonym>
+  <comment></comment>
+  <group>CommandGroup.Сервис</group>
+  <commandParameterType/>
+  <representation>Picture</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделСинхронизация</picture>
+  </picture>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

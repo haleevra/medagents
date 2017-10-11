@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4ad479e-baa5-4717-9038-6106994cdb12">
+  <producedTypes>
+    <managerType typeId="a9db48fb-c2b1-4c34-98aa-cfda8f051156" valueTypeId="16c93c9b-9e98-49bc-b8f2-9be171597464"/>
+    <valueManagerType typeId="769e1651-c592-4c6b-898a-29e1a59e1656" valueTypeId="a5e3d69f-e02c-4d5b-902b-5d652a35c016"/>
+  </producedTypes>
+  <name>Координаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Координаты</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

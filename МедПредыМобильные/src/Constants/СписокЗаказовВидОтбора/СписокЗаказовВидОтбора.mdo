@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5604aac-d052-448e-8203-93cf56a85a44">
+  <producedTypes>
+    <managerType typeId="513d58e1-a9e1-4079-b7be-701c6708b562" valueTypeId="037da264-1c3c-4703-b5c4-7b6d0b3204ec"/>
+    <valueManagerType typeId="42409624-f72c-4e28-8722-1c89295cdc53" valueTypeId="c19b7f91-0f2a-457d-97b7-79ccfb02b42a"/>
+  </producedTypes>
+  <name>СписокЗаказовВидОтбора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список заказов вид отбора</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>15</length>
+    </stringQualifiers>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

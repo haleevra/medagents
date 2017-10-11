@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe5c4104-4eec-4d33-9fe3-25678aa3dac4">
+  <producedTypes>
+    <managerType typeId="ed0c419a-3e2a-4444-ac9c-f8544a891fed" valueTypeId="75ddf2e6-4a5b-499a-9467-bd2ee2ecb606"/>
+    <valueManagerType typeId="2fa0c2d2-2359-4993-8ac4-ecc0ea8a3f4d" valueTypeId="ca597d75-6b0b-452a-8aba-43754271c5f5"/>
+  </producedTypes>
+  <name>РазмерШрифтаИнтерфейсаДляСмартфона</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размер шрифта интерфейса для смартфона</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>EnumRef.РазмерШрифтаИнтерфейсаДляСмартфона</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

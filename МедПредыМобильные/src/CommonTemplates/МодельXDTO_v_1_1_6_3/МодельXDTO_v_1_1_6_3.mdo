@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd70ff30-35b4-42b9-a311-b871b9aca2bf">
+  <name>МодельXDTO_v_1_1_6_3</name>
+  <synonym>
+    <key>en</key>
+    <value>Модель XDTO v 1 1 6 3</value>
+  </synonym>
+  <comment></comment>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

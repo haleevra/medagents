@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b9f2958-fa75-4fbb-9699-408137748bba">
+  <producedTypes>
+    <refType typeId="5a1eb2ce-509c-41a8-b4d2-018bde2b2cf2" valueTypeId="c787aac6-d79c-4b13-afc9-7c6930af9345"/>
+    <listType typeId="f6a04e06-5dc3-4163-b02c-ca5a2f5d1a15" valueTypeId="f0e20cc8-e840-49d1-ad9b-54cb6e8ec9f1"/>
+    <managerType typeId="74276a56-2daf-4822-9219-e958ce8a552f" valueTypeId="48d4cf55-7c34-4186-b37a-c6e759b48ad6"/>
+  </producedTypes>
+  <name>ПериодыВыгрузкиВМобильноеПриложение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периоды выгрузки в мобильное приложение</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Synchronization Periods</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7438a157-d838-4b8d-a096-41b4d089772c">
+    <name>ЗаПоследнийКвартал</name>
+    <synonym>
+      <key>ru</key>
+      <value>За последний квартал</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>In Las Quarter</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ff513034-0fdd-47cd-97c1-2c409154ff43">
+    <name>ЗаПоследнийМесяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>За последний месяц</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>In Last Month</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="6f8a05a6-4bc5-4959-a179-17e6c7baa421">
+    <name>ЗаПоследнююНеделю</name>
+    <synonym>
+      <key>ru</key>
+      <value>За последнюю неделю</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>In Last Week</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="04af286d-23cb-4406-a65d-f44911de6d7c">
+    <name>ЗаПоследнийДень</name>
+    <synonym>
+      <key>ru</key>
+      <value>За последний день</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>In Last Day</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="10141f89-2e00-43a8-a2f2-a8da4f490a89">
+    <name>ЗаВсеВремя</name>
+    <synonym>
+      <key>ru</key>
+      <value>За все время</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

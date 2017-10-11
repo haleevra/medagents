@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="796ab5f0-ed97-400a-b643-916aef6546f3">
+  <name>РазделДоступВОблако</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел доступ в облако</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

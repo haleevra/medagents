@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cee7c43a-2fab-48cc-a2bc-8f91e95d33d3">
+  <producedTypes>
+    <managerType typeId="2c83994c-30fb-4834-86a6-8b4ae5515927" valueTypeId="0ae93f47-64c7-4194-8de6-1225c4cde77c"/>
+    <valueManagerType typeId="149c2cc6-c634-43f6-8a9f-1561c99bbe14" valueTypeId="f3e24400-8775-4cc7-9c39-b7c8e1c4015a"/>
+  </producedTypes>
+  <name>ПрофильМобильногоПриложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Профиль мобильного приложения</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>EnumRef.ПрофилиМобильногоПриложения</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

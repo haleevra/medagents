@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfd5080b-999a-401d-af78-6c260a58f484">
+  <producedTypes>
+    <managerType typeId="1047224c-0c62-464f-973f-a4843fde9336" valueTypeId="889ac6f4-81ff-460c-a27d-4b7a51b6dd89"/>
+    <valueManagerType typeId="29c12951-b0a1-4cd3-8415-1f8dc15f78a5" valueTypeId="1e4030ac-88d4-48c8-8f9a-fb73603cbf59"/>
+  </producedTypes>
+  <name>ПериодЗагрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Период загрузки</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Synchronization Period</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>EnumRef.ПериодыВыгрузкиВМобильноеПриложение</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

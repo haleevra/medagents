@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c1faffe-4a13-45d4-94ba-b306550bc012">
+  <producedTypes>
+    <objectType typeId="02e31963-4976-45b1-a615-6bc0a800efc8" valueTypeId="9d5be562-7831-4ecb-b1f0-6fe042d80d49"/>
+    <refType typeId="8ed32cb4-52c4-469f-a977-aa04ede36904" valueTypeId="35e6ca78-7f17-429a-b8a0-a551f8403484"/>
+    <selectionType typeId="e613faa8-e39b-4468-b158-542c959e53e7" valueTypeId="45f8cc4c-2ce9-415d-a4e2-b5964e1d4058"/>
+    <listType typeId="6c127cf1-424a-45fa-9450-36219028c535" valueTypeId="168de9f2-fc0d-4d9f-a175-e762be202444"/>
+    <managerType typeId="0597a00c-6085-4888-86ac-c1495d900ae0" valueTypeId="07e74c46-4bcc-49d3-8e89-afa14864ba93"/>
+  </producedTypes>
+  <name>СпециализацияВрача</name>
+  <synonym>
+    <key>ru</key>
+    <value>Специализация врача</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СпециализацияВрача.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СпециализацияВрача.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СпециализацияВрача.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.СпециализацияВрача.Form.ФормаСписка</defaultListForm>
+  <forms uuid="4afb80ba-21c4-4865-bb60-86bae623fa10">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e7caac24-c11b-48bf-88bb-08772203bf24">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

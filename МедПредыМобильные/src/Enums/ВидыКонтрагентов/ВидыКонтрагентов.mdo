@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6cbf7e9-1195-4db7-8852-28392e07a0bc">
+  <producedTypes>
+    <refType typeId="dc9c281c-0b9b-4c26-a599-72485ba3e484" valueTypeId="56d287e0-9474-471e-aa4c-73e49fbf656f"/>
+    <listType typeId="662ddaa8-4661-43ee-af67-e4e3208da7f9" valueTypeId="66177313-4196-4466-9542-22b38bb7d992"/>
+    <managerType typeId="76a34a1e-9db6-4d6b-a856-1a9d86426c86" valueTypeId="5b0facce-0b84-48ca-b31d-99f1a6bf9b73"/>
+  </producedTypes>
+  <name>ВидыКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды контрагентов</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a562caee-b1ab-465b-ab78-dc07ead6df7d">
+    <name>ЛПУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЛПУ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Clinic</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="afcee6f9-67c3-44af-abb4-d966e9a5d72c">
+    <name>Аптека</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аптека</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Pharmacy</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>
