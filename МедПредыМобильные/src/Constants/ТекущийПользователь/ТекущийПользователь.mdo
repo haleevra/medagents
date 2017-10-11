@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7985c36a-260a-413d-ac47-aec74582ec54">
   <producedTypes>
-    <managerType typeId="dc0a4249-0325-4f9f-a788-8616bad39f21" valueTypeId="6400f67c-410c-4de0-85ec-b180658cd374"/>
-    <valueManagerType typeId="8729cbe3-e004-4d0e-a612-9fe3fdda70f1" valueTypeId="43a7e273-ed59-4c9f-821a-8fd4db30cc03"/>
+    <managerType typeId="dc0a4249-0325-4f9f-a788-8616bad39f21" valueTypeId="6400f67c-410c-4de0-85ec-b180658cd374">
+    </managerType>
+    <valueManagerType typeId="8729cbe3-e004-4d0e-a612-9fe3fdda70f1" valueTypeId="43a7e273-ed59-4c9f-821a-8fd4db30cc03">
+    </valueManagerType>
   </producedTypes>
   <name>ТекущийПользователь</name>
   <synonym>
@@ -16,7 +18,6 @@
       <length>100</length>
     </stringQualifiers>
   </type>
-  <useStandardCommands>true</useStandardCommands>
   <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>

@@ -2210,6 +2210,9 @@
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
+          <pictureSize>Proportionally</pictureSize>
+          <zoomable>true</zoomable>
+          <hyperlink>true</hyperlink>
           <border xsi:type="core:BorderDef">
             <width>1</width>
           </border>
