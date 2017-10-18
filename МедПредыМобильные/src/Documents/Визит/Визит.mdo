@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45403bd4-e824-44fd-b1e3-50cd17a6a658">
   <producedTypes>
-    <objectType typeId="696f0db5-51ba-407b-a4a4-863b6048e533" valueTypeId="fa6e3e19-df84-411f-949c-f7b4295d2891"/>
-    <refType typeId="0331fc73-453e-4ab1-9510-e96cc6d644d5" valueTypeId="89766214-526c-469c-bbf0-92b90fd3fe15"/>
-    <selectionType typeId="44627d4c-a378-434f-a8b2-b3424e1be73f" valueTypeId="7911840c-6a5c-4d03-8e57-15b932321e6c"/>
-    <listType typeId="bb45e969-abaa-442a-b197-16af149f26e4" valueTypeId="159a2e71-2c7f-43fe-8c3e-34e0b7347501"/>
-    <managerType typeId="c8d519e1-59d5-421c-be48-bb4189ded584" valueTypeId="d2ed2c86-c0de-4a7a-9a50-40752c765df4"/>
+    <objectType typeId="696f0db5-51ba-407b-a4a4-863b6048e533" valueTypeId="fa6e3e19-df84-411f-949c-f7b4295d2891">
+    </objectType>
+    <refType typeId="0331fc73-453e-4ab1-9510-e96cc6d644d5" valueTypeId="89766214-526c-469c-bbf0-92b90fd3fe15">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="44627d4c-a378-434f-a8b2-b3424e1be73f" valueTypeId="7911840c-6a5c-4d03-8e57-15b932321e6c">
+    </selectionType>
+    <listType typeId="bb45e969-abaa-442a-b197-16af149f26e4" valueTypeId="159a2e71-2c7f-43fe-8c3e-34e0b7347501">
+    </listType>
+    <managerType typeId="c8d519e1-59d5-421c-be48-bb4189ded584" valueTypeId="d2ed2c86-c0de-4a7a-9a50-40752c765df4">
+    </managerType>
   </producedTypes>
   <name>Визит</name>
   <synonym>
@@ -384,6 +390,18 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
+  <attributes uuid="028c8e9a-1532-410c-880c-206f57c814cb">
+    <name>СлужебныйКомментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Служебный комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
   <forms uuid="220deaa1-bdd1-4bf1-b76c-d1db0fa7cc5f">
     <name>ФормаСписка</name>
     <synonym>
@@ -406,8 +424,10 @@
   </forms>
   <tabularSections uuid="e01bfd13-5888-45f2-b97f-c75b4ccd4d2d">
     <producedTypes>
-      <objectType typeId="31072a4f-7e5a-408e-a88d-ea3ef46d1f0d" valueTypeId="b5d551dd-2e71-4f3a-8d4e-26d18dc1c5eb"/>
-      <rowType typeId="ee3d2f50-468b-4750-8af8-d6f075e1406f" valueTypeId="d49e557a-0496-4410-9e59-1359d628a14f"/>
+      <objectType typeId="31072a4f-7e5a-408e-a88d-ea3ef46d1f0d" valueTypeId="b5d551dd-2e71-4f3a-8d4e-26d18dc1c5eb">
+      </objectType>
+      <rowType typeId="ee3d2f50-468b-4750-8af8-d6f075e1406f" valueTypeId="d49e557a-0496-4410-9e59-1359d628a14f">
+      </rowType>
     </producedTypes>
     <name>ЧекЛист</name>
     <synonym>
@@ -492,8 +512,10 @@
   </tabularSections>
   <tabularSections uuid="34a35035-7ddd-4945-9f9b-8fd121efbe0a">
     <producedTypes>
-      <objectType typeId="ffded98a-e056-4dec-95fb-8b2f577e9b07" valueTypeId="8f276b01-5ae4-4597-b601-ea0ab39a5df1"/>
-      <rowType typeId="490d49bd-c701-4185-9f1b-d2e75f346426" valueTypeId="797c5505-e045-4418-8452-97594645ce25"/>
+      <objectType typeId="ffded98a-e056-4dec-95fb-8b2f577e9b07" valueTypeId="8f276b01-5ae4-4597-b601-ea0ab39a5df1">
+      </objectType>
+      <rowType typeId="490d49bd-c701-4185-9f1b-d2e75f346426" valueTypeId="797c5505-e045-4418-8452-97594645ce25">
+      </rowType>
     </producedTypes>
     <name>Препараты</name>
     <synonym>
@@ -568,8 +590,10 @@
   </tabularSections>
   <tabularSections uuid="ee6e2780-c59e-4cd0-93c6-8c13f276f7c3">
     <producedTypes>
-      <objectType typeId="db8abb1a-0e9e-4b77-99ad-ffc25f4640c1" valueTypeId="f568954d-6297-4977-b729-79803ae4e589"/>
-      <rowType typeId="fd82ba44-4f14-4ff7-b0b2-76a1af8ebeaa" valueTypeId="ef3074fe-6060-40ac-b6f1-6f400c9c8465"/>
+      <objectType typeId="db8abb1a-0e9e-4b77-99ad-ffc25f4640c1" valueTypeId="f568954d-6297-4977-b729-79803ae4e589">
+      </objectType>
+      <rowType typeId="fd82ba44-4f14-4ff7-b0b2-76a1af8ebeaa" valueTypeId="ef3074fe-6060-40ac-b6f1-6f400c9c8465">
+      </rowType>
     </producedTypes>
     <name>Цены</name>
     <synonym>

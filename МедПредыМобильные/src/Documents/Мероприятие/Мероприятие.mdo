@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="501ce2a1-5707-4438-a7b4-e10798364609">
   <producedTypes>
-    <objectType typeId="38a018a1-2457-463e-8b9c-45c77c579701" valueTypeId="a16c23ec-071c-45a8-a877-3e0da667cbec"/>
-    <refType typeId="4eca7339-12e5-4a3f-8491-aeb0eb8aea99" valueTypeId="6c21e9c0-cc2e-4cf8-a1a4-8d4328d9a29c"/>
-    <selectionType typeId="468e64e5-c3a7-4805-b25e-a5b22728754f" valueTypeId="6430ad42-214a-4026-b0a4-d9202e0ab760"/>
-    <listType typeId="0bedd611-7667-4e0e-9075-661b6dc42541" valueTypeId="0c871479-d3f0-4f13-93fd-10a7bc47d20c"/>
-    <managerType typeId="b4427b1c-556d-420f-94ca-c3504149dc0c" valueTypeId="d891c5a2-9a0b-409d-a477-23761c8c036f"/>
+    <objectType typeId="38a018a1-2457-463e-8b9c-45c77c579701" valueTypeId="a16c23ec-071c-45a8-a877-3e0da667cbec">
+    </objectType>
+    <refType typeId="4eca7339-12e5-4a3f-8491-aeb0eb8aea99" valueTypeId="6c21e9c0-cc2e-4cf8-a1a4-8d4328d9a29c">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="468e64e5-c3a7-4805-b25e-a5b22728754f" valueTypeId="6430ad42-214a-4026-b0a4-d9202e0ab760">
+    </selectionType>
+    <listType typeId="0bedd611-7667-4e0e-9075-661b6dc42541" valueTypeId="0c871479-d3f0-4f13-93fd-10a7bc47d20c">
+    </listType>
+    <managerType typeId="b4427b1c-556d-420f-94ca-c3504149dc0c" valueTypeId="d891c5a2-9a0b-409d-a477-23761c8c036f">
+    </managerType>
   </producedTypes>
   <name>Мероприятие</name>
   <synonym>
@@ -107,6 +113,18 @@
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a80e2f53-fbc4-4d4b-8852-920c342078c1">
+    <name>СлужебныйКомментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Служебный комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
   <forms uuid="2c27d359-83bd-40dd-960f-ee55d3fcfa22">
