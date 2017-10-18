@@ -17,12 +17,13 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="eda068fa-9328-11e7-a09b-5cf938a91888"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="eda068fb-9328-11e7-a09b-5cf938a91888"/>
   <namePrefix></namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.10</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <vendor>Фирма &quot;Академия Проф-ИТ&quot;</vendor>
-  <version>1.0.1.39</version>
+  <version>1.0.1.40</version>
   <updateCatalogAddress></updateCatalogAddress>
   <requiredMobileApplicationPermissions>Multimedia</requiredMobileApplicationPermissions>
   <requiredMobileApplicationPermissions>Location</requiredMobileApplicationPermissions>
